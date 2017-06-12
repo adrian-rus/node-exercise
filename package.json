@@ -1,0 +1,25 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "node js api",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Adrian Rus",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.28",
+    "node-webhooks": "^1.1.32"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
